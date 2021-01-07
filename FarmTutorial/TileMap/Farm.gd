@@ -5,7 +5,7 @@ var tile_pos_infront_of_player
 
 # TMP TEST
 var crop_data = {"pk": 1,
-                 "object_name":"Potato", 
+				 "object_name":"Potato", 
 				 "phase_days": [1,2,2,2,INF],
 				 "current_phase": 0,
 				 "day_of_current_phase": 0,
