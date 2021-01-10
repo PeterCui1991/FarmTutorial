@@ -82,6 +82,7 @@ Action={
 2d_physics/layer_1="Character"
 2d_physics/layer_2="HitBox"
 2d_physics/layer_3="HurtBox"
+2d_physics/layer_4="Object"
 
 [rendering]
 
