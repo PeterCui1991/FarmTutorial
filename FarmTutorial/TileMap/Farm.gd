@@ -1,6 +1,6 @@
 extends TileMap
 
-onready var player = $Player
+onready var player = $YSort/Player
 var tile_pos_infront_of_player
 
 # TMP TEST
@@ -30,6 +30,7 @@ func refresh_tiles():
 		set_cellv(tile_pos, get_tileset().find_tile_by_name(CONSTANTS.SCRATCH_DIRT_NAME))
 
 func _input(event):
+	if tile_pos_infront_of_player == null: return
 	if event.is_action_pressed("Plant"):
 		var crop_path = "res://Crops/Potato.tscn"
 		var crop = load(crop_path).instance()
